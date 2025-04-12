@@ -4,6 +4,8 @@ on:
   pull_request:
     branches:
       - main
+  push:
+    branches: [ main, hw1-p, hw1-f ]
 
 jobs:
   hw1-test:
