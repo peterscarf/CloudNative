@@ -20,4 +20,6 @@ jobs:
 
     - name: Run hw1
       run: bash hw1/run.sh
-      
+    
+    - name: Run tests
+      run: bash hw1/test.sh
